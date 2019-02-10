@@ -4,6 +4,6 @@ module.exports = app => {
     });
 
     app.get("/saved", (req, res) => {
-        res.send(true);
+        res.render("saved");
     });
 };
